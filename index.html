@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Anurag's Portfolio Website</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />  
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logo.png" alt ="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class='hamburger'></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="nav__item"><a href="#footer" class="nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+
+
+        <!--introduction-->
+        <div id="background-wrap">
+            <div class="bubble x1"></div>
+            <div class="bubble x2"></div>
+            <div class="bubble x3"></div>
+            <div class="bubble x4"></div>
+            <div class="bubble x5"></div>
+            <div class="bubble x6"></div>
+            <div class="bubble x7"></div>
+            <div class="bubble x8"></div>
+            <div class="bubble x9"></div>
+            <div class="bubble x10"></div>
+        </div>
+        <section class="backimg">
+            <section class="intro" id="home">
+                <h1 class="section__title section__title--intro">
+                    Hi, I am <strong> Anurag Badge</strong>
+                </h1>
+                <p class="section__subtitle section__subtitle--intro">IT Engineer</p>
+                <img src="img/my_pic1.jpg" alt="a picture of Anurag!" class="intro__img">
+            </section>
+        </section>
+
+
+       <!--My services-->
+       <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">Skills</h2>
+        <div class="services">
+            <div class="hero">
+                <ul class="dynamic-txts">
+                    <li><span>PYTHON</span></li>
+                    <li><span>JAVA</span></li>
+                    <li><span>C++</span></li>
+                    <li><span>C</span></li>
+                </ul>
+
+                <ul class="dynamic-txts">
+                    <li><span>HTML</span></li>
+                    <li><span>CSS</span></li>
+                    <li><span>JAVASCRIPT</span></li>
+                    <li><span>SQL</span></li>
+                </ul>
+            </div>
+        </div>
+        <h2 class="section__title section__title--services">Area of intrest</h2>
+        <div class="gtext__class">
+            <div class="gtext">Data Analysis</div>
+            <div class="gtext">Web Designing</div>
+            <div class="gtext">Artificial Inteligence</div>
+            <div class="gtext">App development</div>
+        </div>
+       </section>
+
+
+        <!--About Me-->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Student at Madras Institute of Technology, Department of Information Technology</p>
+            
+            <div class="night">
+                <div class="star"></div>
+                <div class="star"></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div class="star"></div>
+                <div class="star"></div>
+            </div>
+
+            <div class="about-me__body">
+                <p>Hi! I'm Anurag Badge, a native of Nagpur, Maharashtra India. Final year student of Department of Information Technology at Madras Institute of Technology, Anna University </p>
+                <p>Currently, I am focused on improving skills for my planned career. Innovative, creative, and willing to learn and experience new things. I love to stare at a not-so-bright screen while coding on a constant state of flow. Here are some of my projects.</p>
+            </div>
+            
+            <img src="img/my_pic2.jpg" alt="Anurag" class="about-me__img">
+         </section>
+
+        <!--My work-->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">Some selection of my work</p>
+            <div class="portfolio">
+                <a href="portfolio-item.html" class="image__work">
+                    <img class="image__img" src="img/StockX-1.jpg" alt="Project1">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">StockX</div>
+                        <p class="image_-description">
+                            Predicting the stock market using machine learning.
+                        </p>
+                        <p>Click to know more</p>
+                    </div>
+                </a>
+
+                <a href="portfolio-item2.html" class="image__work">
+                    <img class="image__img" src="img/pallankuzhi2.png" alt="Project1">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Pallankuzhi</div>
+                        <p class="image_-description">
+                            Digital form of old south-indian game.
+                        </p>
+                        <p>Click to know more</p>
+                    </div>
+                </a>
+
+
+                <a href="portfolio-item3.html" class="image__work">
+                    <img class="image__img" src="img/home-banner-2.jpg" alt="Project1">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Portfolio website</div>
+                        <p class="image_-description">
+                            Personal web-site using HTML, CSS and Js.
+                        </p>
+                        <p>Click to know more</p>
+                    </div>
+                </a>
+
+
+                <a href="portfolio-inter.html" class="image__work">
+                    <img class="image__img" src="img/erdv2.jpg" alt="Project1">
+                    <div class="image__overlay image__overlay--blur">
+                        <div class="image__title">Summer Intern</div>
+                        <p class="image_-description">
+                            Summer internship at CSIR-CIMFR.
+                        </p>
+                        <p>Click to know more</p>
+                    </div>
+                </a>
+            </div>
+            
+        </section>
+
+
+        <!--Footer-->
+        <footer class="footer" id="footer">
+            <div class="footer2">
+                <ul class="nobull">
+                    <li class="hover-underline-animation"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="hover-underline-animation"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="hover-underline-animation"><a href="#about" class="nav__link">About me</a></li>
+                    <li class="hover-underline-animation"><a href="#work" class="nav__link">My Work</a></li>
+                    <li class="hover-underline-animation"><a href="#footer" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+            <a href="anuragbagde@gmail.com" class="footer__link">anuragbagde@gmail.com</a>
+            <div class="footer2">
+                <a href="https://www.instagram.com/anuragbagde__1412/" class="link">
+                    <i class="fab fa-instagram instagram"></i>
+                </a>
+                <a href="#" class="link">
+                    <i class="fab fa-twitter twitter"></i>
+                </a>
+                <a href="https://github.com/Yellowflash1412" class="link">
+                    <i class="fab fa-github github"></i>
+                </a>
+                <a href="https://www.linkedin.com/in/anurag-bagde-06b726242/" class="link">
+                    <i class="fab fa-linkedin linkedin"></i>
+                </a>
+            </div>
+            <div class="footer2">
+                <div class="stars">
+                    <a>Pls Rate my website!   </a>
+                    <i class="fas fa-star star1"></i>
+                    <i class="fas fa-star star1"></i>
+                    <i class="fas fa-star star1"></i>
+                    <i class="fas fa-star star1"></i>
+                    <i class="fas fa-star star1"></i>
+                </div>
+            </div>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+
+    </body>
+</html>
